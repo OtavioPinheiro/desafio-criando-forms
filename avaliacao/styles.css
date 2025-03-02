@@ -336,6 +336,9 @@ footer .button:hover {
     background: var(--dark-orange);
 }
 
-input:invalid {
+input:invalid, 
+textarea:invalid,
+select:invalid,
+input:invalid + label::before {
     border: 1px solid #FF1010;
 }

@@ -72,9 +72,9 @@
                     
                         <div class="input-wrapper">
                             <label for="mentor-select">Selecione quem foi o seu mentor</label>
-                            <select id="mentor-select">
-                                <option value="Selecione" selected disabled>Selecione um mentor</option>
-                                <option value="Myk">Myk</option>
+                            <select id="mentor-select" name="mentor-select" required>
+                                <option value="" selected disabled>--Selecione um mentor--</option>
+                                <option value="Mayk">Mayk</option>
                                 <option value="Diego">Diego</option>
                                 <option value="Carlos">Carlos</option>
                                 <option value="Otavio">Otávio</option>
@@ -83,11 +83,11 @@
     
                         <div class="input-wrapper">
                             <label for="feedback">Feedback sobre o mentor</label>
-                            <textarea id="feedback"></textarea>
+                            <textarea id="feedback" required></textarea>
                         </div>
 
                         <div class="checkbox-wrapper">
-                            <input type="checkbox" id="checkbox-mentorship">
+                            <input type="checkbox" id="checkbox-mentorship" required>
                             <label for="checkbox-mentorship">Todas as minhas dúvidas foram esclarecidas durante a mentoria.</label>
                         </div>
                     </div>
